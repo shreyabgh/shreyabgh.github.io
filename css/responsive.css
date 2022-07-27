@@ -1,0 +1,322 @@
+
+/*----------------------------------------------------------------------- 
+Responsive css
+-------------------------------------------------------------------------* /
+
+The Damon - Resume HTML5 Template
+
+File:           CSS Base
+Version:        1.1
+Last change:     
+Author:         xsTheme
+
+/*-------- css code for responsive layout  --------*/
+/*  To make Responsive
+---------------------------------------------------------------------- /
+*   1 - media screen and (max-width: 1199px)
+*   2 - media screen and (max-width: 991px)
+*   3 - media screen and (max-width: 767px)
+*   4 - media screen and (max-width: 680px)
+*   5 - media screen and (max-width: 480px)
+*
+---------------------------------------------------------------------- 
+
+------------------------------------------------------------------------------------------ */
+
+@media screen and (max-width: 991px) { 
+	.hobby .sub-tittle  {
+		padding-bottom: 30px
+	}
+	.hobby-list li {
+		margin-bottom: 10px;
+	}
+
+	.project-item-details .mix {
+		margin-left: 0;
+	}
+	.contact-address {
+		max-width: 165px;
+	}
+	.page-head-title {
+		left: 10%;
+	}
+	.page-breadcrum {
+		bottom: 7%;
+		right: 0%;
+	}
+}
+@media screen and (max-width: 768px) {
+	.slider-preview-section {
+		padding-bottom: 800px;
+		background-position: 68%;
+
+	}
+}
+@media screen and (max-width: 767px) {
+	.container {
+		padding: 0px 30px;
+	}
+	.slide-content {
+		left: 15%;
+	}
+	.navbar-brand img {
+		height: 30px;
+	}
+	.damon-newsletter {
+		position: static;
+		margin-bottom: 40px;
+	}
+	.contact-address {
+		max-width: 270px;
+	}
+	.colmd4 {
+		margin: 0 auto;
+	}
+	.about-me-section .damon-title .damon-head h2,
+	.blog-section .damon-title .damon-head h2,
+	.blog-section .damon-title,
+	.about-me-section .damon-title,
+	.blog-section .damon-title p,
+	.about-me-section .damon-title p {
+		float: none;
+		text-align: center;
+		padding-top: 0;
+	}
+	.section-content {
+		padding-top: 40px;
+		padding-bottom: 40px;
+	}
+	.pb60 {
+		padding-bottom: 35px;
+	}
+	.pb35 {
+		padding-bottom: 20px;
+	}
+	.pro-pic {
+		margin-top: 30px;
+		margin-bottom: 30px;
+	}
+	.resume-education-experience {
+		margin-top: 20px;
+	}
+	.pb160 {
+		padding-bottom: 35px;
+	}
+	.blog-text-pic {
+		margin-bottom: 25px;
+	}
+	.blog-sidebar {
+		margin-left: 0;
+	}
+	.pb45 {
+		padding-bottom: 30px;
+	}
+	.pb40 {
+		padding-bottom: 20px;
+	}
+	.page-head-title h2 {
+		font-size: 30px;
+	} 
+	.comment-area  {
+		margin-bottom: 50px;
+	}
+}
+@media screen and (max-width: 680px) { 
+	.damon-head h2 {
+		font-size: 30px;
+	}
+	.section-content {
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+	.damon-title p {
+		padding-top: 10px;
+	}
+	.pb60 {
+		padding-bottom: 25px;
+	}
+	.pb80 {
+		padding-bottom: 45px;
+	}
+	.breadcrumb-item, .breadcrumb>.active, .breadcrumb>li+li:before {
+		font-size: 18px;
+	}
+	.page-breadcrum {
+		bottom: 2%;
+		right: 25%;
+	}
+	.page-head-title {
+		left: 25%;
+	}
+	.page-head-title h2 {
+		font-size: 26px;
+	}
+}
+@media screen and (max-width: 580px)  {
+	.download-option {
+		right: 50px;
+	}
+	.slider-preview-section {
+		background-position: 66%;
+	}
+	.contact-address {
+		max-width: 200px;
+		padding-bottom: 20px;
+	}
+	.pb45 {
+		padding-bottom: 20px;
+	}
+	.post-item {
+		padding-bottom: 10px;
+	} 
+	.categories-list-item li {
+		margin-bottom: 5px;
+	}
+	.page-head-section {
+		padding-bottom: 430px;
+		background-position: 70%;
+
+	}
+	.comment-pic-text-2 {
+		padding: 0px 0px 35px 115px;
+	}
+	.blog-detail-meta .meta li {
+		font-size: 14px;
+		margin-left: 0;
+	}
+}
+@media screen and (max-width: 420px)  {
+	#slider-preview .overlay-bg {
+		display: block;
+	}
+	.slide-content {
+		left: 30%;
+	}
+	.slide-content h1 span {
+		font-size: 30px;
+	}
+	.slide-button {
+		bottom: -55px;
+	}
+	.slide-content .button-arrow {
+		top: 65px;
+	}
+	.stuck .navbar-brand {
+		padding-bottom: 0;
+		padding-top: 10px;
+	}
+	.navbar-brand img {
+		height: 25px;
+	}
+	.damon-head h2 {
+		font-size: 24px;
+	}
+	.pb60 {
+		padding-bottom: 20px;
+	}
+	.sub-tittle .damon-head h2 {
+		font-size: 20px;
+	}
+	.mb35 {
+		margin-bottom: 20px;
+	}
+	.sub-tittle .damon-head h2 {
+		font-size: 18px;
+	}
+	.service-icon i {
+		font-size: 35px;
+	}
+	.damon-title p {
+		padding-top: 5px;
+	}
+	.service-no {
+		font-size: 20px;
+	}
+	.slide-content {
+		max-width: 200px;
+	} 
+	.damon-title {
+		padding-bottom: 5px;
+	} 
+	.resume-qualification {
+		margin-top: 20px;
+	}
+	.resume-education-experience {
+		margin-top: 10px;
+	}
+	.sub-tittle {
+		padding-bottom: 0;
+	}
+	.damon-newsletter {
+		margin-bottom: 20px;
+	}
+	.post-title a {
+		font-size: 18px;
+	}
+	.pt20 {
+		padding-top: 10px;
+	}
+	.pb35 {
+		padding-bottom: 15px;
+	}
+	.comment-pic-text-2 {
+		padding: 0px 0px 35px 50px;
+	}
+	.page-head-title {
+		left: 16%;
+	}
+	.portfolio-single-text .blog-title h3 a {
+		font-size: 20px;
+	}
+	.portfolio-single-content .hello-contact-form {
+		margin-bottom: 35px;
+	}
+	.erro-title-head {
+		background-position: 78% 30%;
+		font-size: 150px;
+	}
+	.error-text {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 375px) {
+	.hamburger {
+		top: 18px;
+	}
+	.slide-content h1 span {
+		font-size: 25px;
+	}
+	.blog-title h3 a {
+		font-size: 16px; 
+	}
+	.slide-content {
+		max-width: 165px;
+	}
+	.page-head-title {
+		left: 12%;
+	}
+	.ml10 {
+		margin-left: 5px;
+	}
+	.quate-text blockquote {
+		padding: 30px 0px 30px 30px;
+	}
+	.comment-pic-text-2 {
+		padding: 0px 0px 35px 25px;
+	}
+	.page-breadcrum {
+		right: 17%;
+	}
+	.breadcrumb-item, .breadcrumb>.active, .breadcrumb>li+li:before {
+		font-size: 15px;
+	}
+}
+@media screen and (max-width: 320px) {
+	.page-head-title {
+		left: 7%;
+	}
+	.page-head-title h2 {
+		font-size: 24px;
+	}
+
+}
